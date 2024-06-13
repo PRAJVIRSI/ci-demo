@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
-                bat 'python hello.py'
+                bat 'C:\\Users\\puroh\\AppData\\Local\\Programs\\Python\\Python312\\python.exe hello.py'
             }
         }
         stage('Test') {
